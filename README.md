@@ -26,12 +26,12 @@ If you have saved credentials as above you can run the script. Otherwise you wil
 Usage: vc_account_provisioning [-h] [-D | --debug | --no-debug] [-x | --execute | --no-execute] [-r ROLE] [-t ACCOUNTTYPE]
 
 optional arguments:
-*  -h, --help                    show this help message and exit
-*  -D, --debug, --no-debug       set to enable debug logging.
-*  -x, --execute, --no-execute   set operation mode for script. default operation mode for script will be to perform a simulation.
-*  -t ACCOUNTTYPE, --accountType ACCOUNTTYPE
+   -h, --help                    show this help message and exit
+   -D, --debug, --no-debug       set to enable debug logging.
+   -x, --execute, --no-execute   set operation mode for script. default operation mode for script will be to perform a simulation.
+   -t ACCOUNTTYPE, --accountType ACCOUNTTYPE
                                  select account type to process: (default) UI, API, or ALL
-*  -r ROLE, --role ROLE          select role to enable for accuont: (default) IDESCAN
+   -r ROLE, --role ROLE          select role to enable for accuont: (default) IDESCAN
 
 
 ## NOTE
