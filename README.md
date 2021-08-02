@@ -23,16 +23,19 @@ If you have saved credentials as above you can run the script. Otherwise you wil
 
 
 ## Usage
-Usage: vc_account_provisioning [-h] [-D | --debug | --no-debug] [-x | --execute | --no-execute] [-r ROLE] [-t ACCOUNTTYPE]
-
+Usage: vc_account_provisioning [-h] [-D | --debug | --no-debug] [-x | --execute | --no-execute] [-t ACCOUNTTYPE]
+ [-i ROLES] [-e ROLES] 
 optional arguments:
-   -h, --help                    show this help message and exit  
-   -D, --debug, --no-debug       set to enable debug logging.  
-   -x, --execute, --no-execute   set operation mode for script. default operation mode for script will be to perform a simulation.  
-   -t ACCOUNTTYPE, --accountType ACCOUNTTYPE  
-                                  select account type to process: (default) UI, API, or ALL  
-   -r ROLE, --role ROLE          select role to enable for accuont: (default) IDESCAN  
+   -h, --help                                 show this help message and exit  
+   -D, --debug, --no-debug                    set to enable debug logging.  
+   -x, --execute, --no-execute                set operation mode for script. default operation mode for script will be to perform a simulation.  
+   -t ACCOUNTTYPE, --accountType ACCOUNTTYPE  select account type to process: (default) UI, API, or ALL  
+   -i ROLES, --include ROLES                  select role to enable for accuont. 
+   -e ROLES, --exclude ROLES                  select roles to disable for account.
 
+###ROLES
+ - IDESCAN  (currently only available for include)
+ - SubmitDS (currently only available for exclude)
 
 ## NOTE
 
