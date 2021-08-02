@@ -33,7 +33,7 @@ optional arguments:
    -i ROLES, --include ROLES                  select role to enable for accuont. 
    -e ROLES, --exclude ROLES                  select roles to disable for account.
 
-###ROLES
+### ROLES
  - IDESCAN  (currently only available for include)
  - SubmitDS (currently only available for exclude)
 
